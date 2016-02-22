@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6962C5A91C7B01B500977740 /* ClubUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962C5A81C7B01B500977740 /* ClubUITableViewCell.swift */; };
 		69E93BD91C79192100883AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BD81C79192100883AEB /* AppDelegate.swift */; };
 		69E93BDB1C79192100883AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BDA1C79192100883AEB /* ViewController.swift */; };
 		69E93BDE1C79192100883AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E93BDC1C79192100883AEB /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		69E93BEE1C79192100883AEB /* Pre_Monday_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BED1C79192100883AEB /* Pre_Monday_DemoTests.swift */; };
 		69E93BF91C79192100883AEB /* Pre_Monday_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BF81C79192100883AEB /* Pre_Monday_DemoUITests.swift */; };
 		69E93C071C791B9D00883AEB /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93C061C791B9D00883AEB /* Club.swift */; };
-		69E93C0B1C7AC2B100883AEB /* ClubUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93C0A1C7AC2B100883AEB /* ClubUITableViewCell.swift */; };
 		69E93C0D1C7AC65A00883AEB /* sample_json in Resources */ = {isa = PBXBuildFile; fileRef = 69E93C0C1C7AC65A00883AEB /* sample_json */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6962C5A81C7B01B500977740 /* ClubUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubUITableViewCell.swift; sourceTree = "<group>"; };
 		69E93BD51C79192100883AEB /* Pre_Monday_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pre_Monday_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E93BD81C79192100883AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E93BDA1C79192100883AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		69E93BF81C79192100883AEB /* Pre_Monday_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_Monday_DemoUITests.swift; sourceTree = "<group>"; };
 		69E93BFA1C79192100883AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69E93C061C791B9D00883AEB /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
-		69E93C0A1C7AC2B100883AEB /* ClubUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubUITableViewCell.swift; path = ../ClubUITableViewCell.swift; sourceTree = "<group>"; };
 		69E93C0C1C7AC65A00883AEB /* sample_json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				69E93C0C1C7AC65A00883AEB /* sample_json */,
-				69E93C0A1C7AC2B100883AEB /* ClubUITableViewCell.swift */,
 				69E93BD81C79192100883AEB /* AppDelegate.swift */,
+				6962C5A81C7B01B500977740 /* ClubUITableViewCell.swift */,
 				69E93BDA1C79192100883AEB /* ViewController.swift */,
 				69E93BDC1C79192100883AEB /* Main.storyboard */,
 				69E93BDF1C79192100883AEB /* Assets.xcassets */,
@@ -269,7 +269,7 @@
 				69E93BDB1C79192100883AEB /* ViewController.swift in Sources */,
 				69E93C071C791B9D00883AEB /* Club.swift in Sources */,
 				69E93BD91C79192100883AEB /* AppDelegate.swift in Sources */,
-				69E93C0B1C7AC2B100883AEB /* ClubUITableViewCell.swift in Sources */,
+				6962C5A91C7B01B500977740 /* ClubUITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 				69E93BFF1C79192100883AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69E93C001C79192100883AEB /* Build configuration list for PBXNativeTarget "Pre_Monday_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				69E93C021C79192100883AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69E93C031C79192100883AEB /* Build configuration list for PBXNativeTarget "Pre_Monday_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				69E93C051C79192100883AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

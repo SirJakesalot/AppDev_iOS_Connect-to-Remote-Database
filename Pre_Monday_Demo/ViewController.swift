@@ -17,7 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //requestPull("file:///Users/Macintosh/Desktop/sample_json") {
-        requestPull ("http://clubs.uci.edu/appdev/UCI_Club_Manager/GetClubTable.php") {
+        requestPull ("https://clubs.uci.edu/appdev/UCI_Club_Manager/GetClubTable.php") {
             (response) in
                 self.getClubs(response)
         }

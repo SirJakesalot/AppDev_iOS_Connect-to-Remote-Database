@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6962C5A91C7B01B500977740 /* ClubUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6962C5A81C7B01B500977740 /* ClubUITableViewCell.swift */; };
+		6962C5AB1C7B059600977740 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6962C5AA1C7B059500977740 /* Default-568h@2x.png */; };
 		69E93BD91C79192100883AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BD81C79192100883AEB /* AppDelegate.swift */; };
 		69E93BDB1C79192100883AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E93BDA1C79192100883AEB /* ViewController.swift */; };
 		69E93BDE1C79192100883AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E93BDC1C79192100883AEB /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		6962C5A81C7B01B500977740 /* ClubUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubUITableViewCell.swift; sourceTree = "<group>"; };
+		6962C5AA1C7B059500977740 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		69E93BD51C79192100883AEB /* Pre_Monday_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pre_Monday_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E93BD81C79192100883AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E93BDA1C79192100883AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		69E93BCC1C79192100883AEB = {
 			isa = PBXGroup;
 			children = (
+				6962C5AA1C7B059500977740 /* Default-568h@2x.png */,
 				69E93BD71C79192100883AEB /* Pre_Monday_Demo */,
 				69E93BEC1C79192100883AEB /* Pre_Monday_DemoTests */,
 				69E93BF71C79192100883AEB /* Pre_Monday_DemoUITests */,
@@ -241,6 +244,7 @@
 				69E93BE31C79192100883AEB /* LaunchScreen.storyboard in Resources */,
 				69E93BE01C79192100883AEB /* Assets.xcassets in Resources */,
 				69E93C0D1C7AC65A00883AEB /* sample_json in Resources */,
+				6962C5AB1C7B059600977740 /* Default-568h@2x.png in Resources */,
 				69E93BDE1C79192100883AEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
